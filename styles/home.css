@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #483159;
+  padding-bottom: 200px;
+}
+form{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+input{
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+  border: none;
+  margin: 5px 0;
+}
+
+
+.input{
+  margin: 5px 0;
+}
+
+.input-wrapper{
+  position: relative;
+}
+
+#add-wrapper{
+  height: 80px;
+  width: 100%;
+  background-color: #372544;
+  position: relative;
+  margin-top: 5px;
+}
+
+#add{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  border: solid 2px white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -27px;
+  margin-left: -27px;
+  -webkit-transition: ease-in-out 0.1s;
+  cursor: context-menu;
+}
+
+#add:hover{
+  border: solid 4px white;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 70px;
+  line-height: 60px;
+  color: #372544;
+  background-color: white;
+  margin-top: -34px;
+  margin-left: -34px;
+}
+
+.remove-wrapper{
+  height: 59px;
+  background-color: pink;
+  margin-top: -64px;
+  margin-bottom: 5px;
+  width: 100%;
+  z-index: -1;
+}
+
+.remove{
+  width: 100px;
+  height: 59px;
+  line-height: 59px;
+  border-radius: 59px;
+  text-align: right;
+  padding-right: 20px;
+  background-color: #ed3d3d;
+  color: white;
+  z-index: -10;
+
+  margin: auto;
+
+  margin-left: 180px;
+  cursor: context-menu;
+}
+.remove:hover{
+  background-color: #db3636;
+}
+
+#submit{
+  width: 150px;
+  color: white;
+  border: solid 2px white;
+  background: none;
+  font-weight: bold;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: 240px;
+
+  -webkit-transition: ease-in-out 0.1s;
+}
+#submit:hover{
+  width: 180px;
+  padding: 20px;
+  font-size: 30px;
+
+  margin-top: -60px;
+  margin-left: 230px;
+
+  background-color: white;
+  color: #483159;
+}
+
+/* FOOTER */
+
+footer{
+  position: fixed;;
+  bottom: 0;
+  text-align: center;
+  background-color: #372544;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* LOTTERY */
+
+#lottery{
+  margin-top: 100px;
+}
+
+#lottery h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#lottery .ticket{
+  background-color: white;
+  padding: 40px;
+  width: 200px;
+  margin: 10px auto;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 0.2s;
+}
+
+#lottery .ticket:hover{
+  padding: 50px;
+}

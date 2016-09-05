@@ -1,0 +1,22 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #372544;
+}
+header h1, header a{
+  margin-top: 50px;
+  font-size: 50px;
+  color: #372544;
+  text-decoration: none;
+
+  -webkit-transition: ease-in-out 0.1s;
+}
+header a:hover{
+  text-decoration: underline;
+}
+header p{
+  font-size: 25px;
+}
